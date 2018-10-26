@@ -16,7 +16,7 @@ body, html {
 
 .bg-content {
     font-family: "Verdana","Arial";
-    color: white;
+    color: #ffffff;
     position: relative;
     top: 40%;
     left: 0;
@@ -24,18 +24,41 @@ body, html {
     text-align: center;
 }
 
+.content-header {
+    font-family: "Verdana", "Arial";
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 110%
+}
+
+.content1 {
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid #5e5e5e;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 28px;
     padding-left: 0;
     padding-right: 0;
-    background-color: #3E3E3E;
+    background-color: #5e5e5e;
 }
 
 li a{
-    display: inline;
+    float: left;
     color: white;
     padding-left: 8px;
     padding-right: 8px;
