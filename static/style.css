@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    background-image:url("../images/grand_canyon.jpg");
+    height: 30%;
+    margin-top: -21px
+}
+
+.bg-content {
+    font-family: "Verdana","Arial";
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #3E3E3E;
+}
+
+li a{
+    display: inline;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Verdana", "Arial";
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #777777;
+}
+
+li a:active {
+    background-color: #000000;
+}
