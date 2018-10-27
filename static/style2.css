@@ -2,7 +2,6 @@ body, html {
     height: 100%;
     margin: 0;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,8 +39,8 @@ li a:active {
     background-size: cover;
     opacity: .8;
     background-image: url("../images/grand_canyon.jpg");
-    height: 30%;
-    margin-top: -21px;
+    height: 20%;
+    margin: -21px;
 }
 
 .bg-content {
@@ -52,27 +51,4 @@ li a:active {
     left: 0;
     width: 100%;
     text-align: center;
-}
-
-.content-header {
-    font-family: "Verdana", "Arial";
-    text-align: center;
-    color: #5e5e5e;
-    font-size: 110%
-}
-
-.content1 {
-    margin: 20px;
-    padding: 5px;
-    border: 2px solid #5e5e5e;
-}
-
-.row {
-    display: flex;
-}
-
-
-.column {
-    flex: 33.33%;
-    padding: 5px;
 }
