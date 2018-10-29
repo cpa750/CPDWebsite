@@ -76,3 +76,5 @@ li a:active {
     flex: 33.33%;
     padding: 5px;
 }
+
+/* TODO: Add mobile responsiveness using @media */
