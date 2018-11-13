@@ -74,30 +74,38 @@ li a:active {
     display: flex;
 }
 
-
 .column {
+    position: relative;
     flex: 33.33%;
     padding: 5px;
 }
 
-.bg-image {
-    text-align: center;
+.text-block {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.center-text {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.footer {
+    position: fixed;
+    background-color: #5e5e5e;
+    color: #ffffff;
+    text-align: left;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-top: 5px;
+    border-bottom: 5px;
 }
 
 /* TODO: Add mobile responsiveness using @media */
 
-@media(max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .row {
         display: block
-    }
-    .column {
-        flex: 100%
     }
 }   
