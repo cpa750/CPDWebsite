@@ -1,3 +1,7 @@
+* {
+    font-family: "Verdana","Arial";
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -45,7 +49,6 @@ li a:active {
 }
 
 .bg-content {
-    font-family: "Verdana","Arial";
     color: #ffffff;
     position: relative;
     top: 40%;
@@ -77,9 +80,20 @@ li a:active {
     padding: 5px;
 }
 
+.bg-image {
+    text-align: center;
+}
+
+.center-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* TODO: Add mobile responsiveness using @media */
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
     .row {
         display: block
     }
