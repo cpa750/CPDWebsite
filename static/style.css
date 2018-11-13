@@ -78,3 +78,12 @@ li a:active {
 }
 
 /* TODO: Add mobile responsiveness using @media */
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: block
+    }
+    .column {
+        flex: 100%
+    }
+}   
