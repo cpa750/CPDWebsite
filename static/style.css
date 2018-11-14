@@ -1,5 +1,5 @@
 * {
-    font-family: "Verdana","Arial";
+    font-family: "Georgia", "Verdana","Arial";
 }
 
 body, html {
@@ -24,7 +24,6 @@ li a{
     padding-right: 8px;
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "Verdana", "Arial";
     text-decoration: none;
 }
 
@@ -36,6 +35,12 @@ li a:active {
     background-color: #000000;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -1px;
+}
 
 .background {
     position: relative;
@@ -55,6 +60,7 @@ li a:active {
     left: 0;
     width: 100%;
     text-align: center;
+    z-index: -1;
 }
 
 .content-header {
@@ -98,14 +104,19 @@ li a:active {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    border-top: 5px;
-    border-bottom: 5px;
 }
 
-/* TODO: Add mobile responsiveness using @media */
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
     .row {
         display: block
     }
+    .background {
+        height: 100%;
+    }
 }   
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+}

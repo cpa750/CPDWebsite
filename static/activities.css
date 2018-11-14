@@ -1,3 +1,7 @@
+* {
+    font-family: "Georgia", "Verdana","Arial";
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -19,7 +23,6 @@ li a{
     padding-right: 8px;
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "Verdana", "Arial";
     text-decoration: none;
 }
 
@@ -31,6 +34,18 @@ li a:active {
     background-color: #000000;
 }
 
+img {
+    float: left;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -1px;
+}
 
 .background {
     position: relative;
@@ -44,11 +59,37 @@ li a:active {
 }
 
 .bg-content {
-    font-family: "Verdana","Arial";
     color: #ffffff;
     position: relative;
     top: 40%;
     left: 0;
     width: 100%;
     text-align: center;
+}
+
+.page-content {
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    .row {
+        display: block
+    }
+    .background {
+        height: 100%;
+    }
+    img {
+        float: none;
+        max-width: 75%;
+    }
+}   
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+    
 }
