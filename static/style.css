@@ -1,5 +1,5 @@
 * {
-    font-family: "Georgia", "Verdana","Arial";
+    font-family: "Verdana","Arial";
 }
 
 body, html {
@@ -96,14 +96,11 @@ li a:active {
     padding-right: 20px;
 }
 
-.footer {
-    position: fixed;
-    background-color: #5e5e5e;
-    color: #ffffff;
-    text-align: left;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+#about {
+    margin: auto;
+    text-align: center;
+    max-width: 75%;
+    left: 50%;
 }
 
 @media only screen and (max-width: 425px) {
