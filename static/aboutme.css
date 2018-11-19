@@ -80,10 +80,6 @@ img {
 
 }
 
-#git {
-    max-width: 20px;
-}
-
 
 @media only screen and (max-width: 425px) {
     .row {
@@ -105,7 +101,7 @@ img {
     }
 
     #img2 {
-    float: none;
+        float: none;
     }
 }   
 
