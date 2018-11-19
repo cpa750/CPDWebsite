@@ -2,15 +2,14 @@
     font-family: "Verdana","Arial";
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 p {
     width: 90%;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,6 +38,19 @@ li a:active {
     background-color: #000000;
 }
 
+img {
+    max-width: 175px;
+    padding-right: 5px;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -64,48 +76,18 @@ li a:active {
     left: 0;
     width: 100%;
     text-align: center;
-    z-index: -1;
 }
 
-.content-header {
-    font-family: "Verdana", "Arial";
-    text-align: center;
-    color: #5e5e5e;
-    font-size: 110%
+.page-content {
+    margin-top: 40px;
+    margin-left: 20px;
+
 }
 
-.content1 {
-    margin: 20px;
-    padding: 5px;
-    border: 2px solid #5e5e5e;
+#git {
+    max-width: 20px;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    position: relative;
-    flex: 33.33%;
-    padding: 5px;
-}
-
-.text-block {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #000000;
-    color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#about {
-    margin: auto;
-    text-align: center;
-    max-width: 75%;
-    left: 50%;
-}
 
 @media only screen and (max-width: 425px) {
     .row {
@@ -114,10 +96,26 @@ li a:active {
     .background {
         height: 100%;
     }
+    img {
+        float: none;
+        max-width: 75%;
+    }
+    .page-content {
+        text-align: center;
+    }
+
+    #img1 {
+    float: none;
+    }
+
+    #img2 {
+    float: none;
+    }
 }   
 
 @media only screen and (max-width: 768px) {
     .row {
         display: block;
     }
+    
 }
